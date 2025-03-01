@@ -91,7 +91,7 @@ const Login = () => {
                                             <input type="checkbox" className="form-check-input" /> Keep me signed in
                                         </label>
                                     </div>
-                                    <Link to="#" className="auth-link text-black">Forgot password?</Link>
+                                    <Link to="/Reset_Rrequest" className="auth-link text-black">Forgot password?</Link>
                                 </div>
                                 
                                 <div className="text-center mt-4 font-weight-light">

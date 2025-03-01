@@ -10,6 +10,7 @@ import Transactions from './pages/Transactions/Transactions';
 import Register from './pages/authentication/Account';
 import './App.css';
 import Login from './pages/authentication/login';
+import Reset_Request from './pages/authentication/Reset_Rrquest';
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
         <Route path="/pages/authentication/login" element={<Login />} />
         <Route path="/login" element={<Login />} />
         <Route path="/login" element={<Login onLogin={handleLogin} />} />
+        <Route path="/pages/authentication/reset_request" element={<Reset_Request />} />
         <Route path="/dashboard" element={<Layout><Dashboard token={token} /></Layout>} />
         <Route path="/pages/ui-features/buttons" element={<Layout><Buttons /></Layout>} />
         <Route path="/pages/ui-features/dropdowns" element={<Layout><Dropdowns /></Layout>} />
